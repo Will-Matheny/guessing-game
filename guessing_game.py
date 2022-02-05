@@ -42,7 +42,7 @@ while run_code == 'yes' or 'Yes' or 'YES':
       print(f'You guessed the number in {number_of_guesses} tries.')
       if best_score == None or number_of_guesses < best_score:
         best_score = number_of_guesses
-        print("Your new best score is {} tries.".format(best_score))
+        print(f"Your new best score is {best_score} tries.")
         break
       else:
         print(f" No new high score the current high score is {best_score}.")
