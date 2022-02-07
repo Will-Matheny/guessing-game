@@ -17,7 +17,7 @@ def end():
 
 
 
-while run_code == 'yes' or 'Yes' or 'YES':
+while run_code.lower() == 'yes':
   start()
   num_list = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10']
   guess = 0
